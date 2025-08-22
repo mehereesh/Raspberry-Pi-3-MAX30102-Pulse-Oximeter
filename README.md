@@ -54,6 +54,9 @@ Time: 2.02s | Heart Rate: 76 BPM | SpO₂: 98%
 ...
 Test complete. Data collection stopped.
 
+<img width="604" height="465" alt="Screenshot 2025-08-22 134002" src="https://github.com/user-attachments/assets/e8b87c0f-96d3-4bde-b9b5-c92419c01a84" />
+<img width="1744" height="1018" alt="Screenshot 2025-08-22 133808" src="https://github.com/user-attachments/assets/cdc8a993-fb18-4465-91c0-70ad6d2ca6fe" />
+
 🔑 Keywords
 
 Raspberry Pi 3 Pulse Oximeter MAX30102 Heart Rate SpO2 Python 3.12 I2C Biomedical Sensor IoT Healthcare Medical Devices Vital Signs Monitoring
