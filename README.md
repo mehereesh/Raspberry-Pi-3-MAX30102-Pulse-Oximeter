@@ -24,11 +24,13 @@ MAX30102 Pulse Oximeter Sensor
 Jumper wires & Breadboard
 
 ⚡ Circuit Connection (I²C)
-MAX30102 Pin	Raspberry Pi Pin
-VIN (3.3V)	Pin 1 (3.3V)
-GND	Pin 6 (GND)
-SCL	Pin 5 (GPIO3/SCL)
-SDA	Pin 3 (GPIO2/SDA)
+MAX30102      Raspberry Pi 3
+----------------------------
+VIN (3.3V) → Pin 1 (3.3V)
+GND        → Pin 6 (GND)
+SCL        → Pin 5 (GPIO3, SCL1)
+SDA        → Pin 3 (GPIO2, SDA1)
+
 📦 Installation
 # Update system
 sudo apt-get update
