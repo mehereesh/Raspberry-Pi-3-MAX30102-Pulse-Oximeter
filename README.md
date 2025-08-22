@@ -26,24 +26,24 @@ Jumper wires & Breadboard
 ⚡ Circuit Connection (I²C)
 MAX30102      Raspberry Pi 3
 ----------------------------
-VIN (3.3V) → Pin 1 (3.3V)
-GND        → Pin 6 (GND)
-SCL        → Pin 5 (GPIO3, SCL1)
-SDA        → Pin 3 (GPIO2, SDA1)
+VIN (3.3V) → Pin 1 (3.3V)<br>
+GND        → Pin 6 (GND)<br>
+SCL        → Pin 5 (GPIO3, SCL1)<br>
+SDA        → Pin 3 (GPIO2, SDA1)<br>
 
 📦 Installation
 # Update system
-sudo apt-get update
-sudo apt-get upgrade -y
+```sudo apt-get update``` <br>
+```sudo apt-get upgrade -y```
 
 # Enable I2C
-sudo raspi-config  # -> Interfacing Options -> I2C -> Enable
+```sudo raspi-config```  # -> Interfacing Options -> I2C -> Enable
 
 # Install Python libraries
-pip install smbus2 numpy
+```pip install smbus2 numpy```
 
 🚀 Run the Code
-python3 max30102_test.py
+```python3 pulse_check_pi.py```
 
 
 The script will run for 10 seconds and print live Heart Rate & SpO₂ values.
